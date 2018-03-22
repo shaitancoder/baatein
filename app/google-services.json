@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1085815048784",
+    "firebase_url": "https://myawesomechatapp-18a13.firebaseio.com",
+    "project_id": "myawesomechatapp-18a13",
+    "storage_bucket": "myawesomechatapp-18a13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085815048784:android:3bb8b7a7f60f7b61",
+        "android_client_info": {
+          "package_name": "com.example.sakshigarg.authfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085815048784-sgtgj9hv16901mujnnco7mtf7mndhl9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmPlnPTcP8m2e1h75BXwtnG3c_a9AHhZM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

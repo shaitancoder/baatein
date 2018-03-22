@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="#000000"
+    tools:context="com.example.sakshigarg.authfirebase.ViewImag">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+   >
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/image"/>
+
+        <!--<ImageButton-->
+            <!--android:layout_width="34dp"-->
+            <!--android:layout_height="34dp"-->
+            <!--android:scaleType="fitCenter"-->
+            <!--android:id="@+id/download"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:src="@drawable/download"-->
+            <!--android:layout_gravity="right|bottom" />-->
+    </FrameLayout>
+
+</RelativeLayout>

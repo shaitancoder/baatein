@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="2dp">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:minWidth="100dp"
+    android:id="@+id/rl"
+
+    android:background="@drawable/button_back_green"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:maxHeight="200dp"
+        android:maxWidth="200dp"
+        android:adjustViewBounds="true"
+        android:id="@id/image"/>
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_margin="2dp"
+        android:textSize="15dp"
+        android:textColor="@android:color/white" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/date"
+            android:gravity="center"
+            android:layout_marginRight="7dp"
+            android:text="02 apr 11:55 am"
+            android:textColor="#ffffff"
+            android:textSize="7dp"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ANUJ"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="11dp"
+        android:layout_margin="2dp"
+        android:textColor="@android:color/white"
+        />
+
+    </LinearLayout>
+</LinearLayout>
+
+
+</RelativeLayout>
